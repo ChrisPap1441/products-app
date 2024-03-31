@@ -63,7 +63,7 @@ describe("Request POST /api/products", () => {
         .post('/api/products')
         .send({
             product: "test",
-            cost: 123,
+            cost: 1234,
             description: "test",
             quantity: "5"
         })

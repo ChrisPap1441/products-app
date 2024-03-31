@@ -1,6 +1,7 @@
 const Product = require('../models/product.model')
 
 async function findLastInsertedProduct() {
+    
     console.log('Find last inserted product');
 
     try {
